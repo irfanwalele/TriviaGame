@@ -40,7 +40,7 @@ const triviaQuiz = [{
     question: 'Which US state borders Canada?',
     choice: ['Montana', 'Florida', 'New Jersey', 'Delaware'],
     answer: {
-      ndx: 1,
+      ndx: 0,
       comment:"Check out Google Maps"
     },
   },
@@ -48,7 +48,7 @@ const triviaQuiz = [{
     question: 'What is the symbol for the chemical element oxygen ?',
     choice: ['Ir', 'In', 'O', 'Fe'],
     answer: {
-      ndx: 3,
+      ndx: 2,
       comment:"It is O"
     },
   },
