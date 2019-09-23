@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: radial-gradient(aqua, lightblue);
+    background-image: url("../images/doodles.png");
+  }
+  
+  .main-box {
+    display: block;
+    background-color: beige;
+    margin: 2% 10%;
+    width: 80vw;
+    height: 93vh;
+    overflow: auto;
+  }
+  
+  header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+  }
+  
+  h1 {
+    font-size: 5em;
+  }
+  
+  section.remaining-time {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: steelblue;
+    font-size: 0.1em;
+  }
+  
+  .question {
+    margin: 1em 5vw;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2em;
+    overflow: auto;
+  }
+  
+  .choice {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: midnightblue;
+    overflow: auto;
+    padding: 0.2em 0em;
+    margin: 0em 5em;
+  }
+  
+  .choice:hover {
+    background-color: aqua;
+    border: 2px solid blue;
+  }
+  
+  .answer {
+    margin: 1em 5em 0.5em 5em;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+    font-size: 2em;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 640px) {
+    h1 {
+      font-size: 3em;
+    }
+  
+    .main-box {
+      overflow: auto;
+    }
+  
+    .question {
+      margin: 0em 0vw;
+      font-size: 1.5em;
+      overflow: auto;
+    }
+    
+    .choice {
+      font-size: 1.5em;
+      padding: 0em 0em;
+      margin: 0em 0em;
+      overflow: visible;
+    }
+  
+    .answer {
+      margin: 0;
+      font-size: 1.5em;
+    }
+  }
